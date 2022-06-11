@@ -125,7 +125,7 @@ class Funcoes
 
      * */
     
-	public function SequenciaCrescente(array $arr): bool {
+	public function SequenciaCrescente(array $arr): boolean {
         for($i = 0; $i < count($arr); $i++) {
             $temp_arr = $arr;
             unset($temp_arr[$i]);
